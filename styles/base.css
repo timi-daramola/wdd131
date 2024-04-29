@@ -35,7 +35,7 @@ main {
     align-items: center;
 }
 
-main h2 {
+main h1 {
 	color: white;
 	background-color: #022c6bc7;
 	padding: 10px;
@@ -56,11 +56,11 @@ main h2 {
 	height: 28rem;
 }
 
-.card p {
-	margin-bottom: 1rem;
-	padding: 15px;
-	max-width: 600px;
+.upper_text {
+	max-width: 570px;
+	padding: 25px;
 }
+
 
 .intro {
 	padding: 15px;
@@ -81,7 +81,7 @@ main h2 {
 	display: flex;
 	font-style: italic;
 	position: absolute;
-	margin-top: 6rem;
+	margin-top: 7.2rem;
 	margin-left: 10px;
 }
 
@@ -90,7 +90,15 @@ main h2 {
     height: auto;
     float: left;
 	padding: 20px;
-	margin-top: -1rem;
+	margin-top: 5px;
+}
+
+.card #profile-pic {
+	width: 200px;
+    height: auto;
+    float: right;
+	padding: 20px;
+	margin-top: -10rem;
 }
 
 .card1 {
