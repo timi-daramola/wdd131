@@ -44,6 +44,7 @@ main h1 {
 	text-align: center;
 }
 
+
 .card {
     width: 46rem;
 	margin: 1rem;
@@ -53,7 +54,17 @@ main h1 {
     grid-row: 1/2;
 	border: 2px solid #ddd;
 	border-radius: 10px;
-	height: 28rem;
+	height: 25.5rem;
+}
+
+.card1 {
+	width: 18rem;
+    position: relative;
+    grid-row: 1/2;
+	margin-right: 30px;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	height: 25.5rem;
 }
 
 .upper_text {
@@ -81,7 +92,7 @@ main h1 {
 	display: flex;
 	font-style: italic;
 	position: absolute;
-	margin-top: 7.2rem;
+	margin-top: 8.1rem;
 	margin-left: 10px;
 }
 
@@ -89,8 +100,8 @@ main h1 {
 	width: 200px;
     height: auto;
     float: left;
-	padding: 20px;
-	margin-top: 5px;
+	padding: 10px;
+	margin-top: 2px;
 }
 
 .card #profile-pic {
@@ -101,18 +112,8 @@ main h1 {
 	margin-top: -10rem;
 }
 
-.card1 {
-	width: 18rem;
-    position: relative;
-    grid-row: 1/2;
-	margin-right: 30px;
-	border: 2px solid #ddd;
-	border-radius: 10px;
-	height: 28rem;
-}
-
 .card1 ul {
-	margin-top: 6rem;
+	margin-top: 3rem;
 }
 
 .card1 li {
