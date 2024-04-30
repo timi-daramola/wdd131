@@ -37,9 +37,7 @@ a{
     gap: 60px;
 }
 
-.nav-branding {
-    font-size: 0.7s;
-}
+
 
 .nav-link:hover {
     color: yellow;
