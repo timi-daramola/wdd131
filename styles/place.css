@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    margin-left: 15rem;
+}
+
+.naijaFlag {
+    width: 80%;
+    height: 20px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    background-color: #022906;
+    padding: 18px;
+    width: 80%;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.hero {
+    width: 80%;
+    height: 35rem;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #022906;
+    padding: 18px;
+    width: 80%;
+}
