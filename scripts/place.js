@@ -54,22 +54,21 @@ function calculateWindChill(temperature, windSpeed, unit = 'C') {
 let temperature = 10; // Temperature in Celsius
 let windSpeed = 4.8; // Wind speed in km/h
 let windChillCelsius = calculateWindChill(temperature, windSpeed);
+let final = windChillCelsius.toFixed(1);
 
 console.log("Wind Chill (°C):", windChillCelsius);
 
-function diaplayWeatherInfo() {
-	const weatherInfo = document.getElementById("weatherInfo");
-	weatherInfo.innerHTML = `
-	  <p><strong>Area:</strong> ${temperature}</p>
-	  <p><strong>Population:</strong> ${data.population}</p>
-	  <p><strong>Capital:</strong> ${data.capital}</p>
-	  <p><strong>Languages:</strong> ${data.languages.join(", ")}</p>
-	  <p><strong>Currency:</strong> ${data.currency}</p>
-	  <p><strong>Timezone:</strong> ${data.timezone}</p>
-	  <p><strong>Calling Code:</strong> ${data.callingCode}</p>
-	  <p><strong>Internet TLD:</strong> ${data.internetTLD}</p>
+window.onload = function diaplayWeatherInfo() {
+	let weather = document.getElementById("weatherInfo");
+	weather.innerHTML = `
+	<p><strong>Temperature:</strong> ${temperature} °C</p>
+	<p><strong>Condition:</strong> Partly Cloudy</p>
+	<p><strong>Wind:</strong> ${windSpeed} km/h</p>
+	<p><strong>Wind Chill:</strong> ${final} °C</p>
 	`;
 }
+
+
 let windChillFahrenheit = calculateWindChill(temperature, windSpeed, 'F');
 console.log("Wind Chill (°F):", windChillFahrenheit);
 
