@@ -14,8 +14,6 @@ hamburger.addEventListener("click", () => {
 
 year.innerHTML = `<span>${today.getFullYear()}</span>`;
 
-
-
 const temples = [
     {
       templeName: "Aba Nigeria",
@@ -126,12 +124,30 @@ const temples = [
   const SmallTemple = document.getElementById("#SmallTemple");
   const home = document.getElementById("#home");
 
-  OldTemples.addEventListener("click", temples);
-  NewTemples.addEventListener("click", temples);
+  OldTemples.addEventListener("click", () => {
+      let filteredTemples;
+      filteredTemples = temples.filter(temple => {
+      const dedicationYear = new Date(temple.dedicated).getFullYear();
+      return dedicationYear < 2000;
+    });
+  })
+
+  NewTemples.addEventListener("click", () => {
+    let filteredTemples;
+      filteredTemples = temples.filter(temple => {
+      const dedicationYear = new Date(temple.dedicated).getFullYear();
+      return dedicationYear > 2000;
+    });
+  });
   LargeTemple.addEventListener("click", temples);
   SmallTemple.addEventListener("click", temples);
   home.addEventListener("click", temples);
 
+
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    nav_menu.classList.toggle("active");
+})
 
   function filterTemples() {
     
