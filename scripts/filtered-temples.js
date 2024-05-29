@@ -178,12 +178,13 @@ const temples = [
         templeCardsContainer.appendChild(templeCard);
       });
     }
-  
-  filterTemples();
+  }
 
-lastModified.innerHTML = `<span class="highlight">Last Modification: ${new Intl.DateTimeFormat(
-	"en-US",
-	{
-		dateStyle: "short"
-	}
-).format(today)}</span>`};
+  year.innerHTML = `<span>${today.getFullYear()}</span>`;
+  
+  lastModified.innerHTML = `<span class="highlight">Last Modification: ${new Intl.DateTimeFormat(
+    "en-US",
+    {
+      dateStyle: "short"
+    }
+  ).format(today)}</span>`;
