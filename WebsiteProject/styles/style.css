@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f8f9fa; 
+    padding: 20px;
+}
+
+header{
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 45rem;
+    margin-top: 30px;
+    float: right;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: inline-block;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  #img-id {
+    max-width: 220px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    color: #007bff; /* Blue color for headings */
+}
+
+.textbox{
+    display: block;
+    margin: auto;
+}
+
+.mainPage{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form{
+    width: 500px;
+    background-color: #f8f9fa;
+    margin: 0 auto;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.name{
+    display: block;
+    font-size: 13px;
+    padding-top: 10px;
+    margin-left: 18px;
+}
+
+.nameBox{
+    display: block;
+    width: 450px;
+    height: 20px;
+    padding: 5px;
+    margin-left: 18px;
+    
+}
+
+.message{
+    display: block;
+    font-size: 13px;
+    padding-top: 10px;
+    margin-left: 18px;
+}
+
+.email{
+    display: block;
+    font-size: 13px;
+    padding-top: 10px;
+    margin-left: 18px;
+}
+
+.emailBox{
+    display: block;
+    width: 450px;
+    height: 20px;
+    padding: 5px;
+    margin-left: 18px;
+}
+
+.messageBox{
+    display: block;
+    width: 450px;
+    height: 150px;
+    padding: 5px;
+    margin-left: 18px;
+}
+
+.btn{
+    color: white;
+    width: 460px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    font-weight: bold;
+    border: 2px solid #063d79;
+    background-color: #063d79;
+}
+
+footer {
+    text-align: center;
+}
