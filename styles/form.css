@@ -168,9 +168,15 @@ form {
     margin-bottom: 10px;
 }
 
+.postReview:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(24, 0, 27);
+}
+
 footer {
 	text-align: center;
 	color: white;
-	background-color: #022c6bc7;
+	background-color: rgb(24, 0, 27);
 	padding: 18px;
 }
