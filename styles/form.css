@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "exo", sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header h1{
+    background-color: rgb(24, 0, 27);
+    color: white;
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(223, 213, 231);
+    justify-items: center;
+    height: 620px;
+    border-radius: 5px;
+}
+
+.productText{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.rating{
+    display: block;
+    padding-top: 20px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.ratingStars{
+    width: 10px;
+    margin-left: 2.6rem;
+    margin-bottom: -18px;
+}
+
+.twoStars{
+    width: 25px;
+    margin-left: 2.8rem;
+    margin-bottom: -25px;
+}
+
+.threeStars{
+    width: 45px;
+    margin-left: 28px;
+    margin-bottom: -35px;
+}
+
+.fourStars{
+    width: 50px;
+    margin-left: 15px;
+    margin-bottom: -35px;
+}
+
+.fiveStars{
+    width: 50px;
+    margin-left: 1rem;
+    margin-bottom: -35px;
+}
+
+.rating input{
+    width: 65px;
+    height: 17px;
+    margin-bottom: 30px;
+}
+
+#productName {
+    width: 350px;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.installationText {
+    display: block;
+    margin-left: 15px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+#installationDate{
+    display: block;
+    width: 350px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.checkboxText{
+    display: block;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.checkboxText2{
+    display: block;
+    font-size: 13px;
+    margin-left: 15px;
+    font-style: italic;
+}
+
+.checkboxes{
+    display: block;
+    margin-left: 15px;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+.reviews{
+    display: block;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+
+.reviewExtra{
+    color: blue;
+}
+
+#review {
+    display: block;
+    margin-left: 15px;
+    width: 350px;
+    height: 100px;
+}
+
+.username {
+    display: block;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+
+.usernameExtra{
+    color: blue;
+}
+
+#userName {
+    display: block;
+    margin-left: 15px;
+    width: 350px;
+    padding: 5px;
+}
+
+.postReview {
+    display: block;
+    margin-left: 15px;
+    width: 350px;
+    height: 35px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	background-color: #022c6bc7;
+	padding: 18px;
+}

@@ -4,13 +4,13 @@
 	box-sizing: border-box;
 }
 
-
 body {
 	font-family: "exo", sans-serif;
     max-width: 80%;
     margin: 0 auto;
     min-height: 100%;
-
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -35,8 +35,6 @@ a{
     padding: 0 24px;
     gap: 60px;
 }
-
-
 
 .nav-link:hover {
     color: yellow;
@@ -73,19 +71,21 @@ main h1 {
 
 .container {
     color: #000;
-    width: 80%;
+	grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 80%;
 	border-radius: 10px;
-	height: 30rem;
+	height: auto;
     margin: auto;
     display: flex;
 }
 
-
 figure {
-    max-width: 80%;
+    
     padding: 10px;
     margin: auto;
 }
+
 
 figcaption {
     font: italic smaller sans-serif;

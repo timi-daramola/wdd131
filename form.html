@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get" id="reviewForm">
+            <label for="productName" class="productText">Product Name</label>
+            <select name="productName" id="productName" required>
+                <option value="" disabled selected>Choose a Product ...</option>
+            </select>
+
+            <label class="rating">Overall Rating</label>
+            <img src="images/star.png" class="ratingStars" alt="star">
+            <img src="images/stars.png" class="twoStars" alt="star">
+            <img src="images/threestars.png" class="threeStars" alt="star">
+            <img src="images/fourstars.png" class="fourStars" alt="star">
+            <img src="images/fivestars.png" class="fiveStars" alt="star">
+
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5" required><label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4" required><label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3" required><label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2" required><label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1" required><label for="star1"></label>
+            </div>
+
+            <label for="installationDate" class="installationText">Date of Installation:</label>
+            <input type="date" id="installationDate" name="installationDate" required>
+
+            <label class="checkboxText">Which of the features did you find useful in the product?</label><span class="checkboxText2">(Check all that apply)</span>
+            <div class="checkboxes">
+                <input type="checkbox" id="Durability" name="Durability" value="Durability">
+                <label for="Durability">Durability</label><br>
+                <input type="checkbox" id="Ease of Use" name="Ease of Use" value="Ease of Use">
+                <label for="Ease of Use">Ease of Use</label><br>
+                <input type="checkbox" id="Performance" name="features" value="Performance">
+                <label for="Performance">Performance</label><br>
+                <input type="checkbox" id="Design" name="Design" value="Design">
+                <label for="Design">Design</label><br>
+            </div>
+
+            <label for="review" class="reviews">Written Review <span class="reviewExtra">(Optional)</span></label>
+            <textarea id="review" name="review"></textarea>
+
+            <label for="userName" class="username">Your Name <span class="usernameExtra">(Optional)</span></label>
+            <input type="text" id="userName" name="userName">
+
+            <input type="submit" value="Post Review" class="postReview">
+        </form>
+    </main>
+    <footer>
+        <p>Copyright © <span id="currentyear"></span> | Timilehin Rotimi Daramola | Gauteng</p><p id="lastModified"></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
